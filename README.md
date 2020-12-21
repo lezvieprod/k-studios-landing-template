@@ -11,5 +11,7 @@ K-Studios - Responsive design for user interface companies. The website design c
 Framework  http://getbootstrap.com  
 Icons	Font Awesome (http://fortawesome.github.com/Font-Awesome/)  
 SimpleParallax: https://github.com/geosigno/simpleParallax.js/  
+Animate.css 3.7.0: http://daneden.me/animate  
+wow.js: https://github.com/matthieua/WOW  
 
 Note: All the images used in this template is for demo use only, we are not responsible for any copyrights issue.	 
