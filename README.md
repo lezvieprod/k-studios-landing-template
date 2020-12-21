@@ -5,8 +5,8 @@ K-Studios - адаптивный дизайн для компаний по ра�
 
 ## Credits
 
-Framework  http://getbootstrap.com
-Icons	Font Awesome (http://fortawesome.github.com/Font-Awesome/)
-SimpleParallax: https://github.com/geosigno/simpleParallax.js/
+Framework  http://getbootstrap.com  
+Icons	Font Awesome (http://fortawesome.github.com/Font-Awesome/)  
+SimpleParallax: https://github.com/geosigno/simpleParallax.js/  
 
-Note: All the images used in this template is for demo use only, we are not responsible for any copyrights issue.	
+Note: All the images used in this template is for demo use only, we are not responsible for any copyrights issue.	 
