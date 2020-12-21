@@ -3,6 +3,9 @@
 ## Описание
 K-Studios - адаптивный дизайн для компаний по разработке пользовательских интерфейсов. Дизайн сайта можно легко настроить для своих нужд. При разработке использовались технологии: HTML5, Bootstrap 4.5.3, jQuery 3.2.1 и simpleParallax.
 
+## Description
+K-Studios - Responsive design for user interface companies. The website design can be easily customized to suit your needs. During the development, technologies were used: HTML5, Bootstrap 4.5.3, jQuery 3.2.1 and simpleParallax.
+
 ## Credits
 
 Framework  http://getbootstrap.com  
