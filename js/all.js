@@ -1,5 +1,4 @@
 // Load page
-// Load page
 let PageLoaded = function() {
   const page = document.documentElement;
   page.classList.remove('overflow-hidden')
@@ -21,10 +20,20 @@ $( document ).ready(function() {
     orientation: 'down',
     scale: 1.3,
     overflow: true,
-    // customContainer: '.container',
-    // customWrapper: '.wrapper'
-});
+  });
 
+
+  var wow = new WOW(
+    {
+      boxClass:     'wow',      // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset:       0,          // distance to the element when triggering the animation (default is 0)
+      mobile:       false,       // trigger animations on mobile devices (default is true)
+      live:         true,       // act on asynchronously loaded content (default is true)
+      scrollContainer: null // optional scroll container selector, otherwise use window
+    }
+  );
+  wow.init();
 
   // navbar fix color
   const navbarToggler = document.querySelector('.navbar-toggler');
@@ -68,12 +77,10 @@ $( document ).ready(function() {
     const pageContentPos = document.getElementById('pageContent').offsetTop - stickyNavBarHeight;
     const pageContentHeight = document.getElementById('pageContent').offsetHeight;
     
-    if(windowScroll <= pageContentPos) {
-      console.log("scroll func")   
+    if(windowScroll <= pageContentPos) { 
       window.addEventListener('scroll', changeStickyBar);
     }
     else if(windowScroll  > pageContentPos && windowScroll < (pageContentPos + pageContentHeight)) {
-      console.log("fast func")
       stickyNavbar.classList.add('bg-black');
       window.addEventListener('scroll', changeStickyBar);
     } else {
