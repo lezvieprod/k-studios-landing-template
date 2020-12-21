@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ru" class="overflow-hidden">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Ilya Sokol">
+  <title>K-studios - разработка веб-интерфейсов</title>
+
+  <link rel="icon" type="image/png" href="./images/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="./stylesheets/min/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/min/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/min/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/min/fonts.min.css">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/main.css">
+</head>
+
+<body class="page" data-loaded="">
+  <div class="preloader align-items-center justify-content-center">
+    <div class="spinner-border text-primary" role="status">
+      <span class="d-none">Loading...</span>
+    </div>
+  </div>
+  <header class="sticky-navbar navbar navbar-expand-lg navbar-dark primary-color w-100">
+    <div class="container">
+      <a class="navbar-brand" href="/"><span style="color:#24adf3">K</span>-STUDIOS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Работы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section id="preview" class="page-preview" style="min-height: 100vh; max-height: 100vh; overflow: hidden;">
+    <div class="preview-image__overlay"></div>
+    <img class="thumbnail" style="min-height: 100vh; object-fit: cover;" src="./images/preview.jpg" alt="K-STUDIOS">
+    <div class="preview-image__intro">
+      <h1>K-STUDIOS</h1>
+      <h2>Создаем сайты любой сложности</h2>
+      <div>полностью адаптивные для любых устройств</div>
+    </div>
+    <a class="btn-goto" href="#services">
+      <span class="scroll-to-services d-flex align-items-center justify-content-center">
+        <i class="fa fa-angle-down fa-2x"></i>
+        К услугам
+        <i class="fa fa-angle-down fa-2x"></i>
+      </span>
+    </a>
+  </section>
+  <div id="pageContent">
+    <section id="services" class="page-section page-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mx-auto">
+            <div class="section-header text-center">
+              <h2 class="section-header__title text-center">Наши услуги</h2>
+              <div class="seperator-line"></div>
+              <div class="section-header__text">
+                Никто не зажигает лампу, чтобы спрятать ее за дверью: цель света - создать больше света, открыть глаза людям, раскрыть чудеса вокруг.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-section__content">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-12 mb-2">
+              <div class="services__item bg-white">
+                <div class="services__item__icon d-flex align-items-center justify-content-center mb-4">
+                  <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                </div>
+                <div class="services__item__title">
+                  <h2 class="text-center">Создание макета</h2>
+                </div>
+                <div class="services__item__text text-center mb-4">
+                  Хорошие вещи приходят к тем, кто ждет, но только то, что остается у тех, кто спешит
+                </div>
+                <a href="#contacts" class="buyit-btn">
+                  К заказу
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-2">
+              <div class="services__item bg-white">
+                <div class="services__item__icon d-flex align-items-center justify-content-center mb-4">
+                  <i class="fab fa-codepen"></i>
+                </div>
+                <div class="services__item__title">
+                  <h2 class="text-center">Верстка сайта</h2>
+                </div>
+                <div class="services__item__text text-center mb-4">
+                  Хорошие вещи приходят к тем, кто ждет, но только то, что остается у тех, кто спешит
+                </div>
+                <a href="#contacts" class="buyit-btn">
+                  К заказу
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 mb-2">
+              <div class="services__item bg-white">
+                <div class="services__item__icon d-flex align-items-center justify-content-center mb-4">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="services__item__title">
+                  <h2 class="text-center">Веб-программирование</h2>
+                </div>
+                <div class="services__item__text text-center mb-4">
+                  Хорошие вещи приходят к тем, кто ждет, но только то, что остается у тех, кто спешит
+                </div>
+                <a href="#contacts" class="buyit-btn">
+                  К заказу
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="page-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mx-auto">
+            <div class="section-header text-center">
+              <h2 class="section-header__title text-center">Наши работы</h2>
+              <div class="seperator-line"></div>
+              <div class="section-header__text">
+                Никто не зажигает лампу, чтобы спрятать ее за дверью: цель света - создать больше света, открыть глаза людям, раскрыть чудеса вокруг.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-6 col-md-12 mb-2">
+            <div class="grid">
+              <figure class="effect-steve">
+                <img src="./images/projects/construction.jpg" alt="img29">
+                <figcaption>
+                  <h2>Интернет магазин<span>Стройка+</span></h2>
+                  <p>Перейти на страницу</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-2">
+            <div class="grid">
+              <figure class="effect-steve">
+                <img src="./images/projects/math.jpg" alt="img29">
+                <figcaption>
+                  <h2>Онлайн-сервис <span>Вычиталка</span></h2>
+                  <p>Перейти на страницу</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-2">
+            <div class="grid">
+              <figure class="effect-steve">
+                <img src="./images/projects/server.jpg" alt="img29">
+                <figcaption>
+                  <h2>Файлообменник <span>SAVEITFAST</span></h2>
+                  <p>Перейти на страницу</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-12 mb-2">
+            <div class="grid">
+              <figure class="effect-steve">
+                <img src="./images/projects/game.jpg" alt="img29">
+                <figcaption>
+                  <h2>Новостной сайт<span>GAMECHECK</span></h2>
+                  <p>Перейти на страницу</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="reviews" class="page-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mx-auto">
+            <div class="section-header text-center">
+              <h2 class="section-header__title text-center">Отзывы наших клиентов</h2>
+              <div class="seperator-line"></div>
+              <div class="section-header__text">
+                Никто не зажигает лампу, чтобы спрятать ее за дверью: цель света - создать больше света, открыть глаза людям, раскрыть чудеса вокруг.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card review-card">
+              <div class="card-up deep-blue-gradient"></div>
+              <div class="avatar mx-auto">
+                <img src="./images/reviews/1.jpg" class="rounded-circle img-responsive" alt="Example photo">
+              </div>
+              <div class="card-body">  
+                  <h4 class="card-title mt-1">Екатерина Зайцева</h4>
+                  <hr>
+                  <p>
+                    <i class="fas fa-quote-left"></i> 
+                    Нужен был сайт для курсовой работы. Заказала верстку у этих ребят, получила зачет!
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card review-card">
+              <div class="card-up deep-blue-gradient"></div>
+              <div class="avatar mx-auto">
+                <img src="./images/reviews/2.jpg" class="rounded-circle img-responsive" alt="Example photo">
+              </div>
+              <div class="card-body">  
+                  <h4 class="card-title mt-1">Наталья Шилова</h4>
+                  <hr>
+                  <p>
+                    <i class="fas fa-quote-left"></i> 
+                    Быстро и качественно нарисовали макет сайта. Скоро обращусь снова!
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card review-card">
+              <div class="card-up deep-blue-gradient"></div>
+              <div class="avatar mx-auto">
+                <img src="./images/reviews/3.jpg" class="rounded-circle img-responsive" alt="Example photo">
+              </div>
+              <div class="card-body">  
+                  <h4 class="card-title mt-1">Виталий Рябов</h4>
+                  <hr>
+                  <p>
+                    <i class="fas fa-quote-left"></i> 
+                    Хороший подход к делу! Сделали даже чуть больше чем нужно. Очень доволен.
+                  </p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    </section>
+
+    <section id="contacts" class="page-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mx-auto">
+            <div class="section-header text-center">
+              <h2 class="section-header__title text-center">Заказать услугу</h2>
+              <div class="seperator-line"></div>
+              <div class="section-header__text">
+                Никто не зажигает лампу, чтобы спрятать ее за дверью: цель света - создать больше света, открыть глаза людям, раскрыть чудеса вокруг.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <form class="form-contacts p-3">
+            <div class="form-contacts__line" >
+              <input id="username" type="text"/>
+              <label id="l-username" class="form-contacts__line__placeholder" for="username">Имя</label>
+            </div>
+            <div class="form-contacts__line" >
+              <input id="email" type="email"/>
+              <label class="form-contacts__line__placeholder" for="email">E-mail</label>
+            </div>
+            <div class="form-contacts__line" >
+              <textarea id="message" rows="7"></textarea>
+              <label class="form-contacts__line__placeholder" for="message">Описание услуги</label>
+            </div>
+            <div class="form-contacts__line" >
+              <input class="submit-btn" id="submit" type="submit" value="Отправить"/>
+            </div>
+          </form>
+        </div>
+      </div>
+  </section>
+  
+  <footer class="text-center text-lg-start bg-black"> 
+    <div class="text-center text-white p-3">
+      © 2020-2021 Copyright:
+      <a class="" href="https://github.com/lezvieprod">Ilya Sokol</a>
+    </div>
+  </footer>
+
+  </div>
+
+
+  <div class="scroll-up">
+    <a href="#preview">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <script src="./js/min/jquery.min.js"></script>
+  <script src="./js/min/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="./js/min/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+  <script src="./js/min/simpleParallax.min.js"></script>
+  <script src="./js/min/bootstrap.min.js"></script>
+  <script src="./js/all.js"></script>
+</body>
+
+</html>
